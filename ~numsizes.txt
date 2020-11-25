@@ -1,0 +1,22 @@
+num(1)100 is 34430 digits long (1.2030165513x10^34429) /
+num(2)10 is 34430 digits long (1.2030165513x10^34429) /
+num(2)13 is 111726 digits long (3.3693663439x10^111725) /
+num(2)2 is 8 digits long (3.9684636x10^7) /
+num(2)20 is 747706 digits long (6.4848654940x10^747705) /
+num(2)21 is 925519 digits long (1.5950644855x10^925518)
+num(2)22 is 1133941 digits long (9.1738045699x10^1133940)
+num(2)3 is 98 digits long (4.0690114538x10^97) /
+num(2)4 is 449 digits long (2.1417190203x10^448) /
+num(2)6 is 3256 digits long (2.3071494306x10^3255) /
+num(2)7 is 6713 digits long (6.3445917543x10^6712) /
+num(2)8 is 12451 digits long (1.6584448713x10^12450) /
+num(2)9 is 21344 digits long (2.3553335765x10^21343) /
+num(3)2 is 71 digits long (1.0473123314x10^70) /
+num(3)3 is 1637 digits long (1.0998070984x10^1636) /
+num(3)7 is 533880 digits long (1.4546797683x10^533879) /
+num(4)3 is 21344 digits long (2.3553335765x10^21343) /
+num(4)4 is 280485 digits long (7.8322662583x10^280484) /
+num(4)5 is 1978430 digits long (1.3139229563x10^1978429)
+num(5)3 is 250002 digits long (2.0495683578x10^250001)
+num(6)2 is 12451 digits long (1.6584448713x10^12450) /
+num(9)2 is 1281873 digits long (3.2064747375x10^1281872)
