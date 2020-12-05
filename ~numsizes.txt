@@ -1,4 +1,7 @@
+num(1)1 is 1 digits long (0.x10^0)
 num(1)100 is 34430 digits long (1.2030165513x10^34429) /
+num(1)2 is 1 digits long (1.x10^0)
+num(2)1 is 1 digits long (0.x10^0)
 num(2)10 is 34430 digits long (1.2030165513x10^34429) /
 num(2)13 is 111726 digits long (3.3693663439x10^111725) /
 num(2)2 is 8 digits long (3.9684636x10^7) /
