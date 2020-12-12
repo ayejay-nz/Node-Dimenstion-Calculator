@@ -1,6 +1,8 @@
 import math
 import time
 
+from numba import jit
+
 sigma = 0
 TotalLines = 0
 n = 0
