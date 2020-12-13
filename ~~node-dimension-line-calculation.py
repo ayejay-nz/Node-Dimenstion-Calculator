@@ -65,4 +65,41 @@ def calculator():
 
     print(scienficic_notation)
 
-calculator()
+@jit(nopython=True)
+def optimised():
+    sigma = 0
+    TotalLines = 0
+    n = 0
+
+    SideLength = int(input("How long do you want each side to be?\n"))
+    Dimension = int(input("What dimension would you like this shape to occupy?\n"))
+
+    nodes = SideLength**Dimension #Calculates total nodes or points
+
+    for i in range(1, nodes): #Gets the total unique lines that can be created
+        sigma += i
+
+    #Works out total possible combinations
+    for x in range(0, sigma):
+        a = math.factorial(sigma) 
+        b = math.factorial(x) 
+        c = sigma**(sigma-x) #Works out colour combinations for iteration
+            
+        n = (a//b)*c 
+        TotalLines += n
+
+    #Writes whole number to txt file
+    txtname = f"num({Dimension}){SideLength}(jit).txt"
+    with open (txtname, "w") as txtfile:
+        txtfile.write(str(TotalLines))
+
+    #Converts to a shortned version to be displayed in scienctific notation
+    rounded = round(TotalLines, 11)
+    power = len(str(TotalLines)) - 1
+    first = str(rounded)[:1]
+    last = str(rounded)[1:11]
+    scienficic_notation = (f"{first}.{last}x10^{power}")
+
+    print(scienficic_notation)
+
+print(optimised())
